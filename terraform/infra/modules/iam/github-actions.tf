@@ -55,7 +55,7 @@ resource "aws_iam_role_policy" "github_actions_describe_cluster" {
         Action = [
           "eks:DescribeCluster"
         ]
-        Resource = "arn:aws:eks:us-east-1:797671034493:cluster/eks-observability-cluster"
+        Resource = "arn:aws:eks:us-east-1:800309353239:cluster/eks-observability-cluster"
       }
     ]
   })
